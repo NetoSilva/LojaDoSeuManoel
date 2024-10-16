@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{619A2264-B8B2-49B5-851B-44D95B36D570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersAPI", "OrdersAPI\OrdersAPI.csproj", "{20EF049F-3167-4679-ADFA-C13AE94F1A51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PedidosAPI", "OrdersAPI\PedidosAPI.csproj", "{20EF049F-3167-4679-ADFA-C13AE94F1A51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaDoSeuManoel.Application", "Application\LojaDoSeuManoel.Application.csproj", "{C25B1EE5-B2CC-4AE6-869B-16EF1DC49E82}"
 EndProject
