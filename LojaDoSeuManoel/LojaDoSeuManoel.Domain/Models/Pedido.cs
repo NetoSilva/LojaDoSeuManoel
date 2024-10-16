@@ -1,8 +1,8 @@
 ﻿namespace LojaDoSeuManoel.Domain.Models
 {
-    public class Pedido(int idPedido, IEnumerable<Produto> produtos)
+    public class Pedido()
     {
-        public int IdPedido { get; set; } = idPedido;
-        public IEnumerable<Produto> Produtos { get; set; } = produtos;
+        public required int IdPedido { get; set; }
+        public required IEnumerable<Produto>  Produtos { get; set; }
     }
 }

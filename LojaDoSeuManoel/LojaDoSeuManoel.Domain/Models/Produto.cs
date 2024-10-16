@@ -1,8 +1,8 @@
 ﻿namespace LojaDoSeuManoel.Domain.Models
 {
-    public class Produto(string idProduto, Dimensao dimensao)
+    public class Produto()
     {
-        public string IdProduto { get; set; } = idProduto;
-        public Dimensao Dimensao { get; set; } = dimensao;
+        public required string IdProduto { get; set; }
+        public required Dimensao Dimensao { get; set; }
     }
 }
