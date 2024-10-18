@@ -16,10 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Application\LojaDoSeuManoel.Application.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Responses\" />
+    <ProjectReference Include="..\Infrastructure\LojaDoSeuManoel.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

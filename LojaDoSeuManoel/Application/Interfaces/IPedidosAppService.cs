@@ -1,8 +1,10 @@
-﻿using LojaDoSeuManoel.Domain.Models;
+﻿using LojaDoSeuManoel.Application.Results;
+using LojaDoSeuManoel.Domain.Models;
 
 namespace LojaDoSeuManoel.Application.Interfaces
 {
-    public interface IPedidosAppService : IAppServiceBase<Pedido>
+    public interface IPedidosAppService
     {
+        public PedidosAppServiceProcessResult ProcessarPedido(Pedido pedido);
     }
 }

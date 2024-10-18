@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using LojaDoSeuManoel.Application.Results;
 using LojaDoSeuManoel.Domain.Models;
 using PedidosAPI.Requests;
+using PedidosAPI.Responses;
 
 namespace PedidosAPI.Mappings
 {

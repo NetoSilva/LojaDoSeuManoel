@@ -2,7 +2,7 @@
 {
     public class Pedido()
     {
-        public required int IdPedido { get; set; }
-        public required IEnumerable<Produto>  Produtos { get; set; }
+        public int IdPedido { get; set; }
+        public IEnumerable<Produto>  Produtos { get; set; }
     }
 }

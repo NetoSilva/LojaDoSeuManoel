@@ -5,5 +5,10 @@
         public double Altura { get; set; }
         public double Largura { get; set; }
         public double Comprimento { get; set; }
+
+        public double ObterVolume()
+        {
+            return Altura * Largura * Comprimento;
+        }
     }
 }

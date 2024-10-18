@@ -2,7 +2,7 @@
 {
     public class Produto()
     {
-        public required string IdProduto { get; set; }
-        public required Dimensao Dimensao { get; set; }
+        public string IdProduto { get; set; }
+        public Dimensao Dimensao { get; set; }
     }
 }
